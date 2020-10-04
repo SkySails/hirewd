@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      //Assuming your components/utilities live in ./src
+      //Update this path as necessary
+      "@Components/*": ["./src/components/*"],
+      "@Icons": ["./src/Icons"]
+    }
+  },
+  "exclude": ["node_modules", "out"]
+}
