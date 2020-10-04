@@ -5,7 +5,7 @@
       //Assuming your components/utilities live in ./src
       //Update this path as necessary
       "@Components/*": ["./src/components/*"],
-      "@Icons": ["./src/Icons"]
+      "@Icons": ["./src/Icons/index.js"]
     }
   },
   "exclude": ["node_modules", "out"]
