@@ -1,6 +1,4 @@
 import { Button } from "@Components/Common";
-import Head from "next/head";
-import { Hamburger } from "@Icons";
 import styled from "styled-components";
 import { useState } from "react";
 
