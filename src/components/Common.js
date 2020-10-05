@@ -14,7 +14,7 @@ export const Button = styled.button`
       ? "#3454D1"
       : "white"};
   box-shadow: 5px 5px 30px 0
-    ${(props) => (!props.transparent ? "#3454d14d" : "transparent")};
+    ${(props) => (!props.transparent ? "#3454d138" : "transparent")};
   border-radius: 7px;
   cursor: pointer;
   font-weight: bold;
