@@ -30,6 +30,8 @@ export default function Home() {
           <section id="intro">
             <div className="content text">
               <h1>
+                Students. <br /> Web developers. <br />{" "}
+                <span>Cheap websites.</span>
                 Does your business need a website? <br /> Do you have an
                 IT-project that needs a helping hand? <br />{" "}
                 <span>Hire web developers in training!</span>
@@ -179,11 +181,13 @@ const Main = styled.main`
     }
 
     .content.text {
+      font-size: 2.2em;
       font-size: 1.2em;
       h1 {
         color: #3454d1;
       }
       span {
+        font-size: 1.2em;
         font-size: 2em;
         color: #34d1bf;
       }
