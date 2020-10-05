@@ -16,7 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 0;
+  height: 60px;
   background: #34d1bf;
   color: white;
   font-family: "Inter";
@@ -129,7 +129,7 @@ main {
   }
 
   #intro {
-    height: calc(100vh - 120px);
+    min-height: calc(100vh - 130px);
     padding-top: 30px;
 
     .content {
