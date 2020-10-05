@@ -130,7 +130,6 @@ main {
 
   #intro {
     min-height: calc(100vh - 130px);
-    padding-top: 30px;
 
     .content {
       display: flex;
@@ -185,6 +184,7 @@ main {
 
     @media (max-width: 1100px) {
       flex-direction: column;
+      padding-top: 30px;
 
       .content.image {
         align-items: center !important;
