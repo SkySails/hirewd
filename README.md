@@ -20,7 +20,3 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-## Alternate version
-
-If you feel like the syntax in the `index.js` page is too complex, and simply want to work on a static website using HTML and CSS, the `/static/` folder is the place to do it. Feel free to create new pages, add styling etc. as you please!
