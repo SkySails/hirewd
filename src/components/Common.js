@@ -13,6 +13,8 @@ export const Button = styled.button`
       : props.light
       ? "#3454D1"
       : "white"};
+  box-shadow: 5px 5px 30px 0
+    ${(props) => (!props.transparent ? "#3454d14d" : "transparent")};
   border-radius: 7px;
   cursor: pointer;
   font-weight: bold;
