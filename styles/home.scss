@@ -215,6 +215,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    transform-style: preserve-3d;
 
     span {
       position: absolute;
@@ -250,7 +251,7 @@ main {
       left: 7px;
       background: #34d1bf;
       box-shadow: 5px 5px 30px 0 #34d1bf4d;
-      z-index: -1;
+      transform: translateZ(-1px);
     }
   }
 
