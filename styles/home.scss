@@ -148,6 +148,7 @@ main {
         span {
           font-size: 1.2em;
           color: #34d1bf;
+          white-space: nowrap;/*to keep the row from wrapping*/
         }
       }
 

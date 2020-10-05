@@ -28,12 +28,11 @@ export default function Home() {
           <section id="intro">
             <div className="content text">
               <h1>
-                Students. <br /> Web developers. <br />{" "}
-                <span>Cheap websites.</span>
+                Need a website? <br /> Need it cheap?<br />{" "}
+                <span>Hire a student!</span>
               </h1>
               <p>
-                Dive deep into a market full of aspiring web engineers, eager to
-                assist you in the process of realising your dream.
+                Dive in and start realising your dreams.
               </p>
               <div className="cta-container">
                 <button className="cta primary">
