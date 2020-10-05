@@ -21,8 +21,8 @@ export default function Arrow({ open, onClick }) {
             transform="translate(-1990)"
             fill="none"
             stroke="#f3f3f3"
-            stroke-linecap="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeWidth="2"
           />
           <path
             id="Path_56"
@@ -31,9 +31,9 @@ export default function Arrow({ open, onClick }) {
             transform="translate(-1995.361 1.914)"
             fill="none"
             stroke="#f3f3f3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
           />
         </g>
         <g
@@ -42,7 +42,7 @@ export default function Arrow({ open, onClick }) {
           transform="translate(343 713)"
           fill="none"
           stroke="#fff"
-          stroke-width="1"
+          strokeWidth="1"
           opacity="0.49"
         >
           <circle cx="14" cy="14" r="14" stroke="none" />
