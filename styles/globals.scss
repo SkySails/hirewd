@@ -27,3 +27,23 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #3454d1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #34d1bf;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
