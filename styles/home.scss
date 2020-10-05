@@ -32,7 +32,6 @@ header {
   top: 0;
   display: flex;
   justify-content: center;
-  background: #f3f3f3;
 }
 
 .nav-container {
@@ -46,7 +45,8 @@ header {
     "Logo Navigation"
     "MobileNavigation MobileNavigation";
   padding: 10px;
-  height: 60px;
+  height: 70px;
+  background: #f3f3f3;
 
   #logo {
     grid-area: Logo;
