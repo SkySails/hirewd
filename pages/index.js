@@ -47,19 +47,19 @@ export default function Home() {
       </main>
 
       <section className="mission">
-        <h1>Our mission</h1>
-        <div className="text-problem">
+        <div className="grid-container">
+          <img className="ladysign" src="img/ladysign.svg " />
+
+          <h1>Our mission</h1>
           <h2>The problem 🤔</h2>
-          <div className="flex-container">
-            <p>
-              The level of competence in the world of IT is always rising, and
-              the skill levels of students are always getting better. Employed
-              developers rarely have time to meet the demands from the general
-              market, which results in many of the freat website ideas never
-              becoming reality
-            </p>
-            <img className="ladysign" src="img/ladysign.svg " />
-          </div>
+
+          <p>
+            The level of competence in the world of IT is always rising, and the
+            skill levels of students are always getting better. Employed
+            developers rarely have the time to meet the demands from the general
+            market, which results in many of the great website ideas never
+            becoming reality.
+          </p>
         </div>
 
         <div className="text-solution">

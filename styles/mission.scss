@@ -1,3 +1,50 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.mission {
+  background-image: url(/img/wave.svg);
+}
+
+.grid-container {
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr 1fr;
+  gap: 0px;
+  grid-template-areas:
+    ". header1 header1 header1 ."
+    "header2 header2 header2 img img"
+    "paragraf paragraf paragraf img img"
+    "paragraf paragraf paragraf img img";
+
+  h1 {
+    color: #34d1bf;
+    grid-area: header1;
+    text-align: center;
+    font-size: 85pt;
+    margin-top: 10rem;
+  }
+  img {
+    margin-top: 6rem;
+    grid-area: img;
+    width: 461px;
+    height: 571px;
+  }
+  h2 {
+    color: #34d1bf;
+    font-size: 55pt;
+    padding-left: 10rem;
+    padding-top: 10rem;
+    grid-area: header2;
+  }
+  p {
+    color: #fbf5f8;
+    max-width: 40ch;
+    font-size: 30pt;
+    padding-left: 10rem;
+    padding-bottom: 10rem;
+    grid-area: paragraf;
+  }
 }
