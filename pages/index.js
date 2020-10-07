@@ -63,17 +63,17 @@ export default function Home() {
         </div>
 
         <div className="text-solution">
+          <div></div>
           <img
             className="content-man"
             src="img/drawkit-content-man-colour.svg"
           />
-          <h1>Our solution!🎉</h1>
+          <h2>Our solution!🎉</h2>
           <p>
-            undraw_community_8nwl Let’s invite students to take on the projects
-            that no one else can take! By providing a platform for clients and
-            students alike, we can share the workload evenly giving those with
-            free time the opportunity to work extra in the field they’re
-            studying.
+            Let’s invite students to take on the projects that no one else can
+            take! By providing a platform for clients and students alike, we can
+            share the workload evenly giving those with free time the
+            opportunity to work extra in the field they’re studying.
           </p>
         </div>
         <div className="text-result">
