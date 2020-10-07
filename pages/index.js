@@ -62,29 +62,32 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="text-solution">
-          <div></div>
+        <div className="flex-container">
           <img
             className="content-man"
             src="img/drawkit-content-man-colour.svg"
           />
-          <h2>Our solution!🎉</h2>
-          <p>
-            Let’s invite students to take on the projects that no one else can
-            take! By providing a platform for clients and students alike, we can
-            share the workload evenly giving those with free time the
-            opportunity to work extra in the field they’re studying.
-          </p>
+          <div>
+            <h2>Our solution!🎉</h2>
+            <p>
+              Let’s invite students to take on the projects that no one else can
+              take! By providing a platform for clients and students alike, we
+              can share the workload evenly giving those with free time the
+              opportunity to work extra in the field they’re studying.
+            </p>
+          </div>
         </div>
-        <div className="text-result">
+        <div className="flex-container">
+          <div className="result">
+            <h2>The result 🏁</h2>
+            <p>
+              Hirewd ([ˈhaɪəd]) s a community driven portal, designed to match
+              clients up with competent and attentive student-level developers.
+              By deferring projects and requests to HireWD, everyone can get
+              their websites built.
+            </p>
+          </div>
           <img className="community" src="img/undraw_community_8nwl.svg" />
-          <h2>The result 🏁</h2>
-          <p>
-            Hirewd ([ˈhaɪəd]) s a community driven portal, designed to match
-            clients up with competent and attentive student-level developers. By
-            deferring projects and requests to HireWD, everyone can get their
-            websites built.
-          </p>
         </div>
       </section>
     </div>

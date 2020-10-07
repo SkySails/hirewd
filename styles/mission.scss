@@ -4,6 +4,7 @@
   padding: 0;
 }
 .mission {
+  width: 100%;
   background-image: url(/img/wave.svg);
 }
 
@@ -53,8 +54,17 @@ h2 {
   font-size: 55pt;
 }
 
-.text-solution {
+.flex-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
+
+  img {
+    width: 543px;
+    height: 518px;
+  }
+}
+.result {
+  margin-top: 8rem;
 }
